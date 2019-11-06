@@ -88,7 +88,7 @@ int main (){
             break;
 
             default:
-                printf("\nEsta operação não existe", setlocale(LC_ALL,NULL))
+                printf("\nEsta operação não existe", setlocale(LC_ALL,NULL));
         }
     }
         void Entrada (float *n1, float *n2){
@@ -125,14 +125,14 @@ int main (){
                 printf("\n\tA: Par\n");
             }
             else{
-                printf("\n\tA: Impar\n")
+                printf("\n\tA: Impar\n");
             }
 
             if(iB%2==0){
                  printf("\n\tA: Par\n");
             }
             else{
-                 printf("\n\tB: Impar\n")
+                 printf("\n\tB: Impar\n");
             }
         }
 
